@@ -1,0 +1,191 @@
+/* <!-- Nama:Arjuna Melix Sihombing
+NIM: 41424013
+Prodi:D4-TRPL --> */
+
+
+
+/* Reset some default styles */
+body, p, table{
+    margin: 0;
+    padding: 0;
+    bottom: 0px;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background:url(https://itkoding.com/wp-content/uploads/2023/07/background-3d-keren.jpg) no-repeat center center;
+    background-size: cover;
+    filter: brightness(150%);
+    
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+/* buat  header */
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    gap:10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+/* Banner styling */
+.banner {
+    background: url(https://wallpaperaccess.com/full/2772922.png) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.banner button {
+    background-color: #7709e5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* buat background */
+.background {
+    position: relative;
+    max-height: 100%;
+    background:url(https://itkoding.com/wp-content/uploads/2023/07/background-3d-keren.jpg) no-repeat center center;
+    background-size: cover;
+    filter: brightness(50%);
+    
+}
+
+
+
+
+/* Content section */
+.content {
+    padding: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.card img {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+}
+
+
+/* buat yang tabel */
+
+.table-home{
+    overflow: auto;
+    margin: 2rem 0;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0 , 1);
+}
+
+thead{
+    background: #333;
+    color: #fff;
+}
+
+thead th{
+    padding: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    background: blue;
+}
+
+tbody tr:nth-child(even) {
+    background: #d61ac7;
+    
+}
+
+tbody tr:nth-child(odd) {
+    background: #d61ac7;
+}
+
+tbody td{
+    padding: 1rem;
+    border-bottom: 1px solid #1290ac;
+    text-align: left;
+}
+
+tbody tr:hover {
+    background: #06f78f;
+}
+
+/* buat yang list */
+
+
+.list {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #0d34f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+
+.style-list {
+    list-style: none;
+    padding: 0;
+}
+
+.style-list li {
+    background: #730adc;
+    border: 1px solid #f70d0d;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.style-list li:hover {
+    background: #15ec15;
+    transform: scale(1.02);
+}
